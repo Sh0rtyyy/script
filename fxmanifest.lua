@@ -8,16 +8,18 @@ lua54 'yes'
 
 client_scripts {
     '@es_extended/locale.lua',
-	'locales/*.lua',
+    'locales/en.lua',
+    'locales/cz.lua',
     'client.lua',
     'config.lua'
 }
 
 server_scripts {
     '@es_extended/locale.lua',
-	'locales/*.lua',
-	'config.lua',
-	'server.lua'
+    'locales/en.lua',
+    'locales/cz.lua',
+    'config.lua',
+    'server.lua'
 }
 
 shared_scripts {'@es_extended/imports.lua','@ox_lib/init.lua'}
